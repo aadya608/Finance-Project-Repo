@@ -1,21 +1,18 @@
 # Financial-Data-Analytics
-This repository contains my portfolio of investment and finance-related data science projects. These projects are written and presented as Jupyter Notebooks (Python 3), and each link is followed by a short description of project goals, contributions, and dependencies used. 
+My portfolio of investment- and finance-related data science projects is housed in this repository. Each link to a Jupyter Notebook (Python 3) containing one of these projects is followed by a brief explanation of its objectives, contributors, and dependencies.
 
-
-All of the following projects were coded and tested through the Domino Data Lab platform (https://www.dominodatalab.com). I chose to use Domino because the platform allows for easy access to Jupyter notebooks, a built-in terminal, and offline scheduling of jobs for periodic regulation of stock prices. 
+The following projects were all coded and tested using the Domino Data Lab platform (www.dominodatalab.com).
 
 ## Projects ##
 
-[Better Buy: A Novel Stock Value Joint-Analysis and Comparison Tool](https://github.com/quinamatics/Financial-Data-Analytics/blob/master/Better%20Buy.ipynb)
-  * Performs complete comparisons of competitive strategy, financial strength, growth potential, and valuation of two companies through fundamental and technical analysis.
-  * Wrote data parser and reader to download 10-Q and 10-K SEC filings and store them in pandas DataFrame, as well as scripts to append certain business performance metrics for trend analysis.
-  * Designed risk-analysis models using Monte-Carlo Simulations and implemented visualizations using matplotlib and Seaborn.
-  * Combined data with experts' opinions and shareholder sentiment on business strategy and comapny/management direction to make final "better buy" decision.
+[BetterBet: A New Joint-Analysis and Comparison Tool for Stock Value] 
+https://github.com/aadya608/Finance-Project-Repo/blob/main/BetterBet.ipynb
+* Uses fundamental and technical analysis to compare two firms' competitive strategy, financial health, potential for growth, and valuation in detail. I created a data parser, a reader to download 10-Q and 10-K SEC filings, a script to attach specific company performance indicators for trend analysis, and a pandas DataFrame to hold the data.
+
+* Developed risk-analysis models with the aid of Monte-Carlo simulations, and put visualizations into practice with the aid of matplotlib and Seaborn.
 
 
-
-[Risk/Return Analysis and Predictions for 'FAANG' Stocks](https://github.com/quinamatics/Financial-Data-Analytics/blob/master/Risk%20Analysis%20of%20Tech%20Stocks.ipynb)
-  * Here I used pandas Dataframe to represent adjusted closing prices and compute moving averages, daily returns, and associated risk of 'FAANG' tech companies.
-  * Created visual representations of comparative daily returns and single-stock analysis using Matplotlib, as well as more complex heatmaps and distribution plots using Seaborn. 
-  * Compared and plotted risk of investment between simple return analysis techniques and Monte-Carlo simulations.
-
+[Risk/Return Analysis and Predictions for 'FAANG' Stocks]
+https://github.com/aadya608/Finance-Project-Repo/blob/main/RiskAnalysisTechStocks.ipynb
+* To represent adjusted closing prices and calculate moving averages, daily returns, and associated risk for the "FAANG" tech companies, I utilized a pandas Dataframe.
+* Utilized Matplotlib to produce visual representations of single-stock analysis and comparative daily returns, as well as Seaborn to produce more intricate heatmaps and distribution plots. Simple return analysis methods and Monte-Carlo simulations were compared and their respective investment risk curves were presented.
